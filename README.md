@@ -11,7 +11,7 @@ Então busquei no Dribbble um modelo elegante para usar como modelo.
 Nesta aplicação eu foquei mais em seguir o modelo UI/UX do que criar um ciclo de vida. Obvio que não exatamente igual, 
 porem se eu tivesse as informação de fontes e dimenssões seria bem mais fial ao modelo!
 
-API utilizada: 
+
 
 **O que utilizei?**
 
@@ -22,3 +22,14 @@ API utilizada:
 * Google Fonts
 * React Hooks (useState, useCallback, useRoute e usefonts)
 * React Animatable
+* API puclica utilizada => https://www.coinlore.com/cryptocurrency-data-api
+* Modelo UI/UX utilizado => https://dribbble.com/shots/18886381-Crypto-Wallet-Mobile-App
+
+
+**VIDEO DEMOSTRATIVO**
+
+
+
+
+https://user-images.githubusercontent.com/103543739/184721929-bf784c0a-d2d5-4a50-a277-b67cf39f289f.MP4
+
