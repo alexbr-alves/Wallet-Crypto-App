@@ -1,7 +1,8 @@
 # Wallet-Crypto-App
 
 
-Rocker Wallet é uma app feito de forma autônoma para demostrar habilidades de em desenvolvimento React Native! 
+Rocker Wallet é uma app feito de forma autônoma para demostrar habilidades 
+em desenvolvimento React Native! 
 
 Nesta aplicação eu  foquei no desenvolvimento de minhas habilidade de seguir um modelo UI/UX.
 
