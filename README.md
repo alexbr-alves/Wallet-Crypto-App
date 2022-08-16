@@ -22,7 +22,7 @@ porem se eu tivesse as informação de fontes e dimenssões seria bem mais fial 
 * Google Fonts
 * React Hooks (useState, useCallback, useRoute e usefonts)
 * React Animatable
-* API puclica utilizada => https://www.coinlore.com/cryptocurrency-data-api
+* API pública utilizada => https://www.coinlore.com/cryptocurrency-data-api
 * Modelo UI/UX utilizado => https://dribbble.com/shots/18886381-Crypto-Wallet-Mobile-App
 
 
