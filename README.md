@@ -30,7 +30,6 @@ porem se eu tivesse as informação de fontes e dimenssões seria bem mais fial 
 * React Hooks (useState, useCallback, useRoute e usefonts)
 * React Animatable
 * API pública utilizada => https://www.coinlore.com/cryptocurrency-data-api
-* Modelo UI/UX utilizado => https://dribbble.com/shots/18886381-Crypto-Wallet-Mobile-App
 
 <h2>VIDEO DEMOSTRATIVO</h2>
 <br>
