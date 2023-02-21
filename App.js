@@ -1,20 +1,34 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useCallback } from 'react';
+import {useFonts} from 'expo-font';
+import {SplashScreen} from 'expo-splash-screen'
+
+
+
+
+import AppRotas from './src/rotas/appRotas';
+import{ Montserrat_400Regular, Montserrat_500Medium, Montserrat_500Medium_Italic} from '@expo-google-fonts/montserrat'
+import{ Epilogue_600SemiBold, Epilogue_500Medium} from '@expo-google-fonts/epilogue'
 
 export default function App() {
+  let [fontsLoaded, error] = useFonts({
+   Montserrat_400Regular, 
+   Epilogue_600SemiBold,
+   Epilogue_500Medium,
+   Montserrat_500Medium,
+   Montserrat_500Medium_Italic
+  });
+  const onLayoutRootView = useCallback(async () => {
+    if (fontsLoaded) {
+      await SplashScreen.hideAsync();}
+  }, [fontsLoaded])
+
+    if(!fontsLoaded){
+      return null
+    }
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <>
+      <AppRotas/>
+    </>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
