@@ -3,7 +3,6 @@ import {useFonts} from 'expo-font';
 import {SplashScreen} from 'expo-splash-screen'
 
 
-<<<<<<< HEAD
 
 
 import AppRotas from './src/rotas/appRotas';
@@ -17,22 +16,6 @@ export default function App() {
    Epilogue_500Medium,
    Montserrat_500Medium,
    Montserrat_500Medium_Italic
-=======
-import Intro from './src/telas/intro/index'
-import Home from './src/telas/home';
-import Login from './src/telas/login'
-
-import AppRotas from './src/rotas/appRotas';
-import{ SairaExtraCondensed_400Regular,
-  SairaExtraCondensed_500Medium , SairaExtraCondensed_700Bold
-} from '@expo-google-fonts/saira-extra-condensed'
-
-export default function App() {
-  let [fontsLoaded, error] = useFonts({
-    SairaExtraCondensed_400Regular,
-    SairaExtraCondensed_500Medium,
-    SairaExtraCondensed_700Bold
->>>>>>> dc1398e9165fcbb60ef0ce39f15c1080bb0b7c68
   });
   const onLayoutRootView = useCallback(async () => {
     if (fontsLoaded) {
