@@ -34,9 +34,10 @@ porem se eu tivesse as informação de fontes e dimenssões seria bem mais fial 
 <h2>VIDEO DEMOSTRATIVO</h2>
 <br>
 
-<p align="center">
-<video src="https://user-images.githubusercontent.com/103543739/220474445-be24c0f8-d788-4ba4-befd-9c2ac9413aac.mp4">
-</p>
+
+
+https://user-images.githubusercontent.com/103543739/220474445-be24c0f8-d788-4ba4-befd-9c2ac9413aac.mp4
+
 
 <h2>Demostrações complementares</h2>
 
